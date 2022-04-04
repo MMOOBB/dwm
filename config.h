@@ -277,7 +277,7 @@ static Key keys[] = {
 	{ 0, XF86XK_ScreenSaver,	spawn,		SHCMD("slock & xset dpms force off; mpc pause; pauseallmpv") },
 	{ 0, XF86XK_TaskPane,		spawn,		SHCMD(TERMINAL " -e htop") },
 	{ 0, XF86XK_Mail,		spawn,		SHCMD(TERMINAL " -e neomutt ; pkill -RTMIN+12 dwmblocks") },
-	{ 0, XF86XK_MyComputer,		spawn,		SHCMD(TERMINAL " -e lf /") },
+	{ 0, XF86XK_MyComputer,		spawn,		SHCMD(TERMINAL " -e lfub /") },
 	/* { 0, XF86XK_Battery,		spawn,		SHCMD("") }, */
 	{ 0, XF86XK_Launch1,		spawn,		SHCMD("xset dpms force off") },
 	{ 0, XF86XK_TouchpadToggle,	spawn,		SHCMD("(synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient TouchpadOff=1") },
